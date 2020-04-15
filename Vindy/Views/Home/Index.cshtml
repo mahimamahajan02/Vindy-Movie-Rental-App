@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>VINDY MOVIE RENTAL</h1>
+    <p class="lead">A movie rental app.</p>
+   
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>New Rental</h2>
+        <p>
+            List of rentals to the customers.
+        </p>
+       
+        
+        <p>  @Html.ActionLink("New Rental", "New", "Rentals", null, new { @class = "btn btn-primary" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Customers</h2>
+        <p>List of Customers</p>
+        <p> @Html.ActionLink("Customer", "Index", "Customer", null, new { @class = "btn btn-primary" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Movies</h2>
+        <p>List of Movies.</p>
+        <p> @Html.ActionLink("Movies", "Index", "Movies", null, new { @class = "btn btn-primary" })</p>
+    </div>
+</div>
