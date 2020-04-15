@@ -54,9 +54,9 @@ namespace Vindy
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            app.UseFacebookAuthentication(
-               appId: "151006362929457",
-               appSecret: "94d0a98e4a999bdb88f825ec00883d9a");
+            //app.UseFacebookAuthentication(
+             //  appId: 
+             //  appSecret: 
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
